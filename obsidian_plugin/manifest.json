@@ -1,0 +1,11 @@
+{
+	"id": "research-frames",
+	"name": "Research Frames",
+	"version": "2.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Reframing for resarchers",
+	"author": "Anonymized",
+	"authorUrl": "Anonymized",
+	"isDesktopOnly": true,
+	"main": "main.js"
+}

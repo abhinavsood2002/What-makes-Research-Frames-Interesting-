@@ -1,0 +1,153 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+@import "https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css";
+
+/* Frame markdown content styling */
+.frame-content {
+    line-height: 1.6;
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+.frame-content p {
+    margin: 0 0 1em 0;
+}
+
+.frame-content p:last-child {
+    margin-bottom: 0;
+}
+
+.frame-content ul, .frame-content ol {
+    margin: 0 0 1em 0;
+    padding-left: 1.5em;
+}
+
+.frame-content li {
+    margin: 0.25em 0;
+}
+
+.frame-content h1, .frame-content h2, .frame-content h3,
+.frame-content h4, .frame-content h5, .frame-content h6 {
+    margin: 1.2em 0 0.6em 0;
+    font-weight: 600;
+}
+
+.frame-content h1:first-child, .frame-content h2:first-child,
+.frame-content h3:first-child, .frame-content h4:first-child,
+.frame-content h5:first-child, .frame-content h6:first-child {
+    margin-top: 0;
+}
+
+.frame-content blockquote {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border-left: 4px solid #ccc;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.frame-content code {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+.frame-content pre {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 1em;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+.frame-content pre code {
+    background: none;
+    padding: 0;
+}
+
+/* Table styling */
+.frame-content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+    border: 1px solid #ccc;
+}
+
+.frame-content th,
+.frame-content td {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    text-align: left;
+    vertical-align: top;
+}
+
+.frame-content th {
+    background: rgba(0, 0, 0, 0.05);
+    font-weight: 600;
+}
+
+.frame-content tr:nth-child(even) {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+/* Math equation styling */
+.katex {
+    font-size: 1em !important;
+}
+
+.katex-display {
+    margin: 1em 0 !important;
+}
+
+/* Hide KaTeX HTML version, show MathML instead */
+.katex .katex-html {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.katex .katex-mathml {
+    position: static !important;
+    clip: none !important;
+    padding: initial !important;
+    border: initial !important;
+    height: auto !important;
+    width: auto !important;
+    overflow: visible !important;
+}
+
+/* Simplified KaTeX styling to avoid conflicts */
+.frame-content .katex {
+    color: inherit;
+}
+
+/* Ensure all text elements are copyable */
+.frame-content *,
+.frame-content p,
+.frame-content h1,
+.frame-content h2,
+.frame-content h3,
+.frame-content h4,
+.frame-content h5,
+.frame-content h6,
+.frame-content li,
+.frame-content td,
+.frame-content th,
+.frame-content code,
+.frame-content pre {
+    user-select: text !important;
+    -webkit-user-select: text !important;
+    -moz-user-select: text !important;
+    -ms-user-select: text !important;
+}

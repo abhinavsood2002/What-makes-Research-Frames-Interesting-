@@ -1,0 +1,27 @@
+name: knowledge-gap-finder
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - pytorch-cuda=12.1
+  - torchvision
+  - torchaudio
+  - git
+  - build
+  - pip
+  - pip:
+    - flask==2.3.3
+    - flask-cors==4.0.0
+    - flask-limiter
+    - python-dotenv==1.0.0
+    - transformers>=4.37.0
+    - accelerate>=0.25.0
+    - sentence-transformers>=2.2.2
+    - networkx>=3.2
+    - numpy>=1.24.0
+    - gunicorn>=21.2.0
+    - docling
