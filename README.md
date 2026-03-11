@@ -1,6 +1,6 @@
 # Research Frames
 
-Research Frames is an AI-assisted tool for computational creativity research. It surfaces novel research perspectives by analysing a researcher's own notes and PDFs alongside retrieved academic literature, then synthesising concise "frames" — structured prompts that reframe the researcher's work through a new conceptual lens.
+Research Frames is an AI-assisted tool for computational creativity research. It surfaces novel research perspectives by analysing a researcher's own notes and PDFs alongside retrieved academic literature, then synthesising concise "answers".
 
 *Side-by-side view of a researcher's annotated notes (left) alongside the frame browser and generation interface (right).*
 ![Notes and frame browser](Additional_Figures_and_Prompts/1.png)
